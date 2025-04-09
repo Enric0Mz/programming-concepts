@@ -6,4 +6,4 @@ This directory aims to document and explain the most important data structures i
 
 1. [Array](./array.md)
 2. [Hashmap](./hashmap.md)
-3. [Linked-lists](./linked-lists.md)
+3. [Linked-lists](./linked-lists/linked-lists.md)
