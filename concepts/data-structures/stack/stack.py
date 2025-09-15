@@ -7,7 +7,7 @@ class Stack:
     def __len__(self):
         return self.pointer
 
-    def add(self, item):
+    def push(self, item):
         if self.pointer >= self.max_lenght:
             raise IndexError("Stack overflow")
         self.items[self.pointer] = item
@@ -31,10 +31,10 @@ class Stack:
 
 stack = Stack()
 
-stack.add(1)
-stack.add(3)
-stack.add(5)
-stack.add(7)
+stack.push(1)
+stack.push(3)
+stack.push(5)
+stack.push(7)
 
 print("Tamanho Inicial", len(stack))
 print("Último Item", stack.peek())
