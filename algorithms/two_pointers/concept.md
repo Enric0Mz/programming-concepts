@@ -1,17 +1,17 @@
 ## Two Pointers
 
-O algortirmo **two pointers** tem como objetivo manipular dois ponteiros (ou índices, mais comumente), para performar manipulações em alguma estrutura de dados, sendo a mais comum os arrays.
+The two pointers algorithm's objective is to manipulate two pointers (or more commonly, indices) to perform operations on a data structure, with arrays being the most common.
 
-Ela se encaixa em diversos tipos de operações, como inverter arrays e strings, auxiliar em buscas binárias e também quando se trabalha com outros padrão de algoritmo chamado de slidwing window.
+It is suitable for various types of operations, such as reversing arrays and strings, assisting in binary searches, and also when working with another algorithm pattern called the sliding window.
 
-As principais estratégias são:
+The main strategies are:
 
-- **Ponteiros convergentes**: Um ponteiro começa no inicio (index 0) e outro no fim (index len(array) - 1), movendo-se um em direção ao outro. Comum para encontrar palíndromos ou inverter arrays.
+Converging Pointers: One pointer starts at the beginning (index 0) and another at the end (index len(array) - 1), moving towards each other. This is common for finding palindromes or reversing arrays.
 
-- **Ponteiros na mesma direção**: Dois ponteiros se movem na mesma direção, porém um diferente do outro, dada alguma condição específica. Muito comum em operações com sliding window,
+Same Direction Pointers: Two pointers move in the same direction, but one is paced differently than the other, based on a specific condition. This is very common in sliding window operations.
 
-- **Fast and Slow**: Um ponteiro move linearmente (slow), enquanto o outro se move o dobro, triplo, etc (fast). Muito útil em operações com linked-lists, para detectar o meio da lista ou ciclos.
+Fast and Slow: One pointer moves linearly (slow), while the other moves twice, three times, etc., as fast (fast). This is very useful in operations with linked lists, for detecting the middle of the list or identifying cycles.
 
 ## Complexidade
 
-Normalmente, esse algoritmo terá complexidade temporal O(n), pois irá percorrer o array inteiro, no pior dos casos, e complexidade espacial de O(1), alocando apenas os dois ponteiros para performar a lógica.
+Typically, this algorithm will have a time complexity of O(n), as it will traverse the entire array in the worst-case scenario. The space complexity is O(1), as it only allocates the two pointers to perform the logic.

@@ -68,4 +68,3 @@ print("Lista após remoção do início:", dll.head.value if dll.head else "List
 removed = dll.remove_from_end()
 print("Removido do final:", removed)
 print("Lista após remoção do final:", dll.head.value if dll.head else "Lista vazia")
-
