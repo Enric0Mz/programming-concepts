@@ -6,4 +6,7 @@ This directory aims to document and explain the most important data structures i
 
 1. [Array](./array.md)
 2. [Hashmap](./hashmap.md)
-3. [Linked-lists](./linked-lists/linked-lists.md)
+3. [Linked Lists](./linked-lists/linked-lists.md)
+4. [Stack](./stack/concept.md)
+5. [Queue](./queue/concept.md)
+6. [Binary Tree](./binary-tree/concept.md)
