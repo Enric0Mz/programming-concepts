@@ -1,15 +1,17 @@
 ## Sliding Window
 
-Sliding window é uma técnica de resolução de algoritmos, que normalmente é implementada em Arrays ou Strings, em que se utiliza uma janela de items para executar certa ação. Ela é muito comum em problemas que precisam resultar em uma substring, ou subarray baseado em alguma condição especídica, evitando usar recálculo, normalmente com brute force, para resolução do problema.
+Sliding window is an algorithmic technique, typically implemented on Arrays or Strings, which uses a "window" of items to perform a certain action. It is very common in problems that need to find a substring or subarray based on a specific condition, avoiding recalculation (usually associated with brute-force approaches) to solve the problem.
 
-Os dois principais métodos em que a sliding window é utilizada:
+The two main patterns in which the sliding window is used:
 
-- **Tamanho variável**
-  Em problema de janela variável, normalmente é pedido para achar o maior ou menor subarray, dado alguma condição, como a maior substring sem caractéres repetidos ou o maior subarray em que a soma dos elementos é menor que 10.
+- **Variable Size**
+  In variable-sized window problems, the task is usually to find the longest or shortest subarray that satisfies a certain condition, such as the "longest substring without repeating characters" or the "longest subarray where the sum of elements is less than 10."
 
-- **Tamanho fixo**
-  Em problemas de janela fixa, normalmente o problema pede para achar algum subarray de tamanho k, por exemplo, e retornar esse array, dada alguma condição, por exemplo, o mairo subarray de tamanho k que contenha a maior soma do array.
+- **Fixed Size**
+  In fixed-sized window problems, the task usually asks to find something related to a subarray of a specific size `k`. For example, returning the subarray of size `k` that has the largest sum in the entire array.
 
-## Complexidade
+## Complexity
 
-O algoritmo de sliding window normalmente tem complexidade temporal O(n), pois mesmo expandindo e retraindo a janela, a direção é sempre para a direita. Quanto a sua complexidade espacial, pode variar bastante entre O(n) e O(1), dependendo do que cada problema pede, em específico.
+The sliding window algorithm typically has a time complexity of $O(n)$. This is because even while expanding and shrinking the window, both pointers (or the window bounds) only move in one direction (usually to the right).
+
+As for its space complexity, it can vary significantly between $O(n)$ and $O(1)$, depending on the specific requirements of the problem (e.g., storing characters in a hash map).
